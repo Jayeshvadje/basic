@@ -1,0 +1,46 @@
+1) Why are functions advantageous to have in your programs?
+Ans = so function is reduced the repetition of code and need of duplicate codes that's why we do not need to write similar code again and again and
+it also helps to reduces size of code and it makes program easier to understand and read.
+   
+2) When does the code in a function run: when it's specified or when it's called?
+Ans =  the function run when it called
+
+3) What statement creates a function?
+Ans = def statement creates a function
+
+4)What is the difference between a function and a function call?
+Ans = function is the procedure to archive a particular result where function call is the way to archive that task.
+
+5)  How many global scopes are there in a Python program? How many local scopes?
+Ans= there is one global scope in python program and 4 local scopes  
+	
+6) What happens to variables in a local scope when the function call returns?
+Ans = the scopes get destroyed when we call the function
+    
+7)What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans = A return is a value that a function returns to the calling script or function when it completes its task
+      And we can use the return value in math expression or any kind of expression 
+
+8) If a function does not have a return statement, what is the return value of a call to that  function?
+ Ans = then the function will return none
+
+9)How do you make a function variable refer to the global variable?
+Ans = we need to use global keyword to declare which variables are global
+
+10) What is the data type of None? 
+Ans =  It is a data type of the class NoneType object.
+
+11) What does the sentence import areallyourpetsnamederic do?
+Ans = it imports module named areallyourpetsnamederic.
+
+12) If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Ans = This function can be called with spam. bacon()
+
+13)What can you do to save a programme from crashing if it encounters an error?
+Ans = When it encounters an error, the control is passed to the except block, skipping the code in between. As seen in the above code, 
+we have moved our code inside a try and except statement. Try running the program and it should throw an error message instead of crashing the program  
+
+14)What is the purpose of the try clause? What is the purpose of the except clause?
+Ans = It is used to test code for an error which is written in the “try” statement. If an error is encountered, the contents of the “except” block are run              
+
+
