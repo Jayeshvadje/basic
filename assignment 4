@@ -1,0 +1,81 @@
+
+1. What exactly is [ ]?
+Ans =  it is an empty list
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans =   
+	Spam =  [2, 4, 6, 8, 10] 
+Spam[2]='hello'
+print(Spam)
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans =   it will gives us   ‘d’ .
+
+4. What is the value of spam[-1]?
+Ans = 'd'
+
+5. What is the value of spam[:2]?
+Ans = ['a', 'b']
+
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+
+6. What is the value of bacon.index('cat')?
+Ans =  1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans = [3.14, 'cat', 11, 'cat', True, 99]
+
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans = [3.14, 11, 'cat', True]
+
+9. What are the list concatenation and list replication operators?
+Ans = list concatenation means the elements of one list can be added to the elements to the end of the another list.
+List replication means the list can be copied into a new list by using the extend() function
+
+
+10. What is difference between the list methods append() and insert()?
+Ans = append function insert the value at the end of the list,
+ Where,
+ insert function insert the value in the list where we want in the list
+
+11. What are the two methods for removing items from a list?
+Ans = 1) remove()
+      2) pop()
+
+12. Describe how list values and string values are identical.
+Ans = The similarity between Lists and Strings is that both are sequences. The differences between them are that firstly, Lists are mutable but Strings are immutable.
+Secondly, elements of a list can be of different types whereas a String only contains characters that are all of String type.
+
+13. What's the difference between tuples and lists?
+Ans = 
+tuple= we assign a tuple by () this and tuples are immutable 
+list= we assign tuple by [ ] this and list is mutable  
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans = t=(42)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans =	
+Tuple to list =
+aTuple = (True, 28, 'Tiger')
+aList = list(aTuple)
+print(aList)
+ 
+List to Tuple =
+alist = [True, 28, 'Tiger']
+aTuple = list(alist)
+print(aTuple)
+ 
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Ans = they are contain  references
+
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans = Deep copy stores copies of the object's value.
+	Copy reflects changes made to the new object in the original object
+
+
+
