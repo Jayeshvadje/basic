@@ -1,0 +1,44 @@
+1. What are escape characters, and how do you use them?
+ Ans =  An escape character is a backslash \ followed by the character you want to insert.
+
+2. What do the escape characters n and t stand for?
+Ans = \n i stand for the new line and \t is stands for the tab 
+
+3. What is the way to include backslash characters in a string?
+Ans = ‘ \ ’ this is the way to include backslash character in a string.
+ 
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+Ans = because you've used double quotes to mark the beginning and end of the string
+
+5. How do you write a string of newlines if you don't want to use the n character?
+Ans =  we have to take two print statements
+
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+Ans = 1) 'e'
+	2) 'Hello'
+	3) 'Hello'
+	4) lo, world!
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+ Ans = 1) ‘HELLO’
+	2) True
+	3)'hello'
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+Ans =  'There-can-only-one.'
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans =  ljust(),rjust(),center()
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans=  use the trimStart() or trimEnd() method.
+
