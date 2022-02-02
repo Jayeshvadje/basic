@@ -1,0 +1,36 @@
+1. How do you distinguish between shutil.copy() and shutil.copytree()?
+Ans = shutil copy copies only file where shutil.copytree () copies entire folder and the files in the folder.
+
+2. What function is used to rename files??
+Ans = os.rename()
+
+3. What is the difference between the delete functions in the send2trash and shutil modules?
+ans= send2trash use to move the file to recycle bin where shutil modules permanently delete the file
+
+4.ZipFile objects have a close() method just like File objects’ close() method. What ZipFile method is
+equivalent to File objects’ open() method?
+ans= yes 
+
+5. Create a programme that searches a folder tree for files with a certain file extension (such as .pdf
+or .jpg). Copy these files from whatever location they are in to a new folder.
+
+def selectiveCopy(folder, extensions, destFolder):
+
+    folder = os.path.abspath(folder)
+    destFolder = os.path.abspath(destFolder)
+    print('Looking in', folder, 'for files with extensions of', ', '.join(extensions)
+
+    for foldername, subfolders, filenames in os.walk(folder):
+        for filename in filenames:
+            name, extension = os.path.splitext(filename)
+
+            if extension in extensions:
+                fileAbsPath = foldername + os.path.sep + filename
+                print('Coping', fileAbsPath, 'to', destFolder)
+                shutil.copy(fileAbsPath, destFolder)
+extensions = ['.php', '.py']
+folder = 'randomFolder'
+destFolder = 'selectiveFolder'
+selectiveCopy(folder, extensions, destFolder)
+import os, shutil
+
