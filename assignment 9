@@ -1,0 +1,26 @@
+1. To what does a relative path refer?
+Ans = repl[ath () method  used to refer relative path in the given directory or given directory.
+
+2. What does an absolute path start with your operating system?
+Ans =  absolute path start with the home directory of computer and end with the file you need to acess 
+
+3. What do the functions os.getcwd() and os.chdir() do?
+Ans = os.getcwd() gives us the current working directory path and os chdir()  is use to change the path of cwd to the path you want to give.
+
+4. What are the . and .. folders?
+Ans = . is current  directory and .. is parent directory.
+
+5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+ans=  C:\bacon\eggs id directory name where spam.txt is part of base name.
+6. What are the three “mode” arguments that can be passed to the open() function?
+ans= r,rb,r+
+
+7. What happens if an existing file is opened in write mode?
+Ans =  its content are discarded and it will treated as new empty file.
+ 
+8. How do you tell the difference between read() and readlines()?
+ans=read is used to read whole file content where after using readline it will give content line by line
+
+9. What data structure does a shelf value resemble?
+Ans = dictionary value
+
