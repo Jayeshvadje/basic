@@ -1,0 +1,42 @@
+1. In what modes should the PdfFileReader() and PdfFileWriter() File objects will be opened?
+Ans = pypdf2
+
+2. From a PdfFileReader object, how do you get a Page object for page 5?
+Ans =  by using a get page method
+
+3. What PdfFileReader variable stores the number of pages in the PDF document?
+Ans  = numPages  attribute
+
+4. If a PdfFileReader object’s PDF is encrypted with the password swordfish, what must you do
+before you can obtain Page objects from it?
+
+5. What methods do you use to rotate a page?
+Ans = rotateClockwise() method
+
+6. What is the difference between a Run object and a Paragraph object?
+ans= Each Paragraph object also has a runs attribute that is a list of Run objects. Run objects also have a text attribute, containing just the text in that particular run. Let's look at the text attributes in the second Paragraph object, 'A plain paragraph with some bold and some italic' .
+
+7. How do you obtain a list of Paragraph objects for a Document object that’s stored in a variable
+named doc?
+ans= A list of Paragraph instances corresponding to the paragraphs in the document, in document order. Note that paragraphs within revision marks such as <w:ins> or <w:del> do not appear in this list.
+8. What type of object has bold, underline, italic, strike, and outline variables?
+Ans = object which is given first to the program 
+
+9. What is the difference between False, True, and None for the bold variable?
+ans=True / False are used where the field takes a boolean value. None is used where the field takes an Optional[List]
+
+10. How do you create a Document object for a new Word document?
+Ans = The first step is to install this third-party module python-docx. You can use pip “pip install python-docx” 
+After installation import “docx” NOT “python-docx”.
+Use “docx. Document” class to start working with the word document.
+
+11. How do you add a paragraph with the text &#39;Hello, there!&#39; to a Document object stored in a
+variable named doc?
+Ans = import docx
+doc = docx.Document()
+doc.add_paragraph('Hello, world!')
+<docx.text.Paragraph object at 0x0000000003B56F60>
+doc.save('helloworld.docx')
+
+12. What integers represent the levels of headings available in Word documents?
+Ans =number headings so that top-level headings (Heading 1) are numbered 1, 2, 3, for example, and second-level headings (Heading 2) are numbered 1.1, 1.2, 1.3. Open your document that uses built-in heading styles, and select the first Heading 1. On the Home tab, in the Paragraph group, choose Multilevel List
