@@ -1,0 +1,23 @@
+1. Is the Python Standard Library included with PyInputPlus?
+Ans =  no , we need install it
+
+2. Why is PyInputPlus commonly imported with import pyinputplus as pypi?
+ans= so we can use a sorter name while  calling  the function
+
+3. How do you distinguish between inputInt() and inputFloat()?
+ans= inputint() is used to enter the int value and inputfloat used to  enter float value.
+
+4. Using PyInputPlus, how do you ensure that the user enters a whole number between 0 and 99?
+Ans = inp = pyip.inputInt(prompt = "Enter an Integer... ",
+                    min = 0, lessThan =99 )
+     print(inp)
+     
+5. What is transferred to the keyword arguments allowRegexes and blockRegexes?
+ANS= keyword arguments take a list of regular expression strings to determine what the PyInputPlus function will accept or reject as valid input
+
+6. If a blank input is entered three times, what does inputStr(limit=3) do?
+Ans = blank value not allowed message will bw print.
+
+7. If blank input is entered three times, what does inputStr(limit=3, default='hello') do?
+Ans = it will print hello
+
